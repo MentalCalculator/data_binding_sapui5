@@ -13,6 +13,12 @@ sap.ui.require([
 			firstName: "Humana",
             lastName: "Calculator",
             enabled: true,
+            address: {
+                street: "Daugavas Street 17",
+                city: "Kraslava",
+                zip: "5601",
+                country: "Latvia"
+            }
 		});
 
 		// Assign the model object to the SAPUI5 core
