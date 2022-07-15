@@ -13,7 +13,6 @@ sap.ui.require([
 			firstName: "Humana",
             lastName: "Calculator",
             enabled: true,
-            panelHeaderText: "Data Binding Basics"
 		});
 
 		// Assign the model object to the SAPUI5 core
