@@ -21,6 +21,14 @@
 					htmlText="{/address/street}&lt;br>{/address/zip} {/address/city}&lt;br>{/address/country}"
 					id="address" 
 					width="200px"/>
+                    <Link href="{
+						parts: [
+							'/firstName',
+							'/lastName'
+						],
+						formatter: '.formatMail'
+					}"
+					text="{i18n>sendEmail}"/>
 			</l:VerticalLayout>
 		</content>
 	</Panel>
